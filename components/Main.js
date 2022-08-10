@@ -9,14 +9,14 @@ const Main = () => {
       <div className=" max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="text-sm tracking-widest uppercase text-gray-600">
-            Let's Build Something Together
+            Let&apos;s Build Something Together
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi I'm <span className="text-[#5651e5]">Anuj Srivastava</span>
+            Hi I&apos;m <span className="text-[#5651e5]">Anuj Srivastava</span>
           </h1>
           <h1 className="py-2 text-gray-700">A Full Stack Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I am a full stack developer and I'm focused on building 
+            I am a full stack developer and I&apos;m focused on building 
             front-end web applications while learning back-end technologies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
