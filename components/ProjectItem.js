@@ -1,6 +1,6 @@
 import React from "react";
 import Link from 'next/link';
-import Image from "next/image";
+import Image from "next/image"; 
 
 const ProjectItem = ({backgroundImg,tech,projectUrl}) => {
   return (
@@ -17,7 +17,7 @@ const ProjectItem = ({backgroundImg,tech,projectUrl}) => {
         <p className="pb-4 pt-2 text-white text-center">React JS</p>
         <Link href={projectUrl}>
           <p className="text-center px-5 py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
-            More Info
+            Visit Site
           </p>
         </Link>
       </div>

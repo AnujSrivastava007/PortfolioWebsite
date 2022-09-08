@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import propertyImg from "../public/assets/projects/property.jpg";
+import propertyImg from "../public/assets/projects/youtube.png";
+import property from "../public/assets/projects/movie.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -17,25 +18,25 @@ const Projects = () => {
         <ProjectItem
             title='Property Finder'
             backgroundImg={propertyImg}
-            projectUrl='/property'
+            projectUrl='https://youtube-project-six.vercel.app/'
+            tech='Next JS'
+          />
+        <ProjectItem
+            title='Property Finder'
+            backgroundImg={property}
+            projectUrl='https://mov-verse.netlify.app/'
             tech='React JS'
           />
         <ProjectItem
             title='Property Finder'
             backgroundImg={propertyImg}
-            projectUrl='/crypto'
-            tech='React JS'
+            projectUrl='https://youtube-project-six.vercel.app/'
+            tech='Next JS'
           />
         <ProjectItem
             title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/netflix'
-            tech='React JS'
-          />
-        <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/twitch'
+            backgroundImg={property}
+            projectUrl='https://mov-verse.netlify.app/'
             tech='React JS'
           />
 
